@@ -22,4 +22,4 @@ Esse repositório utiliza [leafletjs](https://leafletjs.com/) com [Mapbox](https
 
 ## Contribuição
 
-Esse projeto foi criado com base no repositório da Udacity para entrega do segundo projeto do curso 'Web Front-End Avançado'.
+Esse projeto foi criado com base no repositório da Udacity para entrega do terceiro projeto do curso 'Web Front-End Avançado'.
