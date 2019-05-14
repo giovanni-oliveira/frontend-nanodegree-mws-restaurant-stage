@@ -125,7 +125,8 @@ fillRestaurantHoursHTML = (
  */
 fillReviewsHTML = (reviews = self.restaurant.reviews) => {
     const container = document.getElementById("reviews-container");
-    const title = document.createElement("h2");
+    const title = document.createElement("h1");
+    title.className = "reviews-title";
     title.innerHTML = "Reviews";
     container.appendChild(title);
 
@@ -153,7 +154,7 @@ createReviewHTML = review => {
     article.className = "review";
     li.appendChild(article);
 
-    const name = document.createElement("h1");
+    const name = document.createElement("h2");
     name.className = "review-name";
     name.innerHTML = review.name;
     article.appendChild(name);
@@ -181,6 +182,7 @@ createReviewHTML = review => {
 fillBreadcrumb = (restaurant = self.restaurant) => {
     const breadcrumb = document.getElementById("breadcrumb");
     const li = document.createElement("li");
+    li.setAttribute("aria-current", "page");
     li.className = "breadcrumb-item";
     li.innerHTML = restaurant.name;
     breadcrumb.appendChild(li);
