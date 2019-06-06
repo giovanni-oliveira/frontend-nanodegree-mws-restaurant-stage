@@ -14,7 +14,7 @@ Análises de restaurantes
 2. Na pasta do projeto, crie um httpserver. Exemplo em python:
     - Verifique a versão `python -V`
     - Para versões 2.x rode `python -m SimpleHTTPServer 8000` e 3.x `python3 -m http.server 8000` ou `python -m http.server 8000`
-3. Acesse `http://localhost:8000` Após realizar o download ou o clone do repositório, crie um server local, exemplo em python: `python -m SimpleHTTPServer 8000` ou `python3 -m http.server 8000`
+3. Acesse `http://localhost:8000`
 
 ## Leaflet.js e Mapbox:
 
